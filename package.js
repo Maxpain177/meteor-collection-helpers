@@ -1,9 +1,9 @@
 Package.describe({
-  name: "dburles:collection-helpers",
+  name: "maxpain:collection-helpers",
   summary: "Transform your collections with helpers that you define",
-  version: "1.1.0",
+  version: "1.1.2",
   documentation: "README.md",
-  git: "https://github.com/dburles/meteor-collection-helpers.git",
+  git: "https://github.com/Maxpain177/meteor-collection-helpers.git",
 });
 
 Package.onUse(function(api) {
@@ -20,7 +20,7 @@ Package.onTest(function(api) {
     'tinytest',
     'underscore',
     'mongo',
-    'dburles:collection-helpers']);
+    'maxpain:collection-helpers']);
 
   api.addFiles('collection-helpers_tests.js');
 });
