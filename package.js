@@ -1,16 +1,13 @@
 Package.describe({
   name: "maxpain:collection-helpers",
   summary: "Transform your collections with helpers that you define",
-  version: "1.1.2",
+  version: "1.1.4",
   documentation: "README.md",
   git: "https://github.com/Maxpain177/meteor-collection-helpers.git",
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.4.2');
-  api.use([
-    'underscore',
-    'mongo']);
+  api.use(['underscore@1.0.10', 'mongo@1.4.2']);
 
   api.addFiles('collection-helpers.js');
 });
